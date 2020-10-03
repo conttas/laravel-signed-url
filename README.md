@@ -32,7 +32,7 @@ The package also provides [a middleware to protect routes](https://github.com/ak
 As you would have guessed the package can be installed via Composer:
 
 ```
-composer require akaunting/signed-url
+composer require conttas/laravel-signed-url
 ```
 
 This package intends to provide tools for formatting and conversion monetary values in an easy, yet powerful way for Laravel projects. In older versions of the framework, just add the serviceprovider, and optionally register the facade:
