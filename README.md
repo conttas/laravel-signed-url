@@ -1,9 +1,8 @@
 # Signed (unique) URL package for Laravel.
 
-[![Version](https://poser.pugx.org/akaunting/signed-url/v/stable.svg)](https://github.com/akaunting/signed-url/releases)
-[![StyleCI](https://styleci.io/repos/102290249/shield?style=flat&branch=master)](https://styleci.io/repos/102290249)
-[![Downloads](https://poser.pugx.org/akaunting/signed-url/d/total.svg)](https://github.com/akaunting/signed-url)
-[![License](https://poser.pugx.org/akaunting/signed-url/license.svg)](LICENSE.md)
+[![Version](https://poser.pugx.org/conttas/laravel-signed-url/v/stable.svg)](https://github.com/conttas/laravel-signed-url/releases)
+[![Downloads](https://poser.pugx.org/conttas/laravel-signed-url/d/total.svg)](https://github.com/conttas/laravel-signed-url)
+[![License](https://poser.pugx.org/conttas/laravel-signed-url/license.svg)](LICENSE.md)
 
 This package can create URLs with a limited lifetime. This is done by adding an expiration date and a signature to the URL.
 
@@ -25,7 +24,7 @@ The URL can be validated with the `validate`-function.
 SignedUrl::validate('https://app.com/protected-route?expires=xxxxxx&signature=xxxxxx');
 ```
 
-The package also provides [a middleware to protect routes](https://github.com/akaunting/signed-url#protecting-routes-with-middleware).
+The package also provides [a middleware to protect routes](https://github.com/conttas/laravel-signed-url#protecting-routes-with-middleware).
 
 ## Installation
 
